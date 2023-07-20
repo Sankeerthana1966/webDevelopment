@@ -80,7 +80,7 @@ let buttonTag = document.createElement('button')
 buttonDiv.appendChild(buttonTag)
 
 let buttonLink = document.createElement('a')
-buttonLink.href = '/information.html?'
+buttonLink.href = './information.html?'
 buttonTag.appendChild(buttonLink)
 
 buttonText = document.createTextNode('Place Order')
